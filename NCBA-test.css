@@ -46,11 +46,13 @@ img {
     font-weight: bold;
     padding: 25px 15px;
     text-decoration: none;
+    transition: transform 0.3s ease;
 }
 
 .navbar a:hover {
     background-color:  #001e47;
     color: #EEEEEE;
+    transform: scale(1.2);
 }
 
 /* 標題樣式 */
@@ -74,16 +76,17 @@ h3{
     text-align: center;
 }
 
-.fa-square-facebook {
-    margin: 30px;
-    font-size: 100px;
-    color:  #001e47; 
-}
-  
+.fa-square-facebook,
 .fa-square-instagram {
     margin: 30px;
     font-size: 100px;
-    color:  #001e47; 
+    color: #001e47;
+    transition: transform 0.3s ease;
+}
+
+.fa-square-facebook:hover,
+.fa-square-instagram:hover {
+    transform: scale(1.2);
 }
 
 .main img {
@@ -179,11 +182,16 @@ h3{
     right: 20px;
     z-index: 99;
     background-color:  #001e47;
-    color: white;
+    color: #EEEEEE;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
     cursor: pointer;
-  }
+    transition: transform 0.3s ease;
+}
+
+#scrollToTopBtn :hover{
+    transform: scale(1.2);
+}
