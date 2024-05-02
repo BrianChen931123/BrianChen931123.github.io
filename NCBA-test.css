@@ -16,6 +16,10 @@ html {
     font-size: 18px;
 }
 
+.content {
+    display: none; /* 隱藏所有內容 */
+}
+
 img {
     max-width: 100%;
     height: auto; /* 確保圖片比例不變 */
