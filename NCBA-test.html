@@ -216,5 +216,14 @@
         }
         }
         </script>
+        <script>
+            function showContent(id) {
+                var contents = document.getElementsByClassName('content');
+                for (var i = 0; i < contents.length; i++) {
+                    contents[i].style.display = 'none'; // 隱藏所有內容
+                }
+                document.getElementById(id).style.display = 'block'; // 顯示所選內容
+            }
+        </script>
     </body>
     </html>
