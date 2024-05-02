@@ -167,11 +167,13 @@ h3{
 
 #Photos a {
     color: #787A91;
+    transition: transform 0.3s ease;
 }
 
 #Photos a:hover {
     background-color: #787A91;
     color: #EEEEEE;
+    transform: scale(1.2);
 }
 
 /* 回到頂部按鈕的樣式 */
