@@ -17,7 +17,7 @@ html {
 }
 
 img{
-    text-align: center;
+    background-size: contain;
 }
 
 /* 導航欄樣式 */
