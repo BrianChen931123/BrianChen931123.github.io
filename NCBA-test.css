@@ -94,7 +94,7 @@ h3{
     overflow: hidden;
 }
 
-.background-table {
+#Scores .background-table {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,7 +115,7 @@ h3{
     overflow: hidden;
 }
 
-.background-table {
+#Schedule .background-table {
     position: absolute;
     top: 0;
     left: 0;
@@ -125,6 +125,7 @@ h3{
     border: none; /* 移除框線 */
     background-color: #EEEEEE ; /* 設置表格背景色與頁面背景色相同 */
 }
+
 #Photos .container {
     display: flex;
     justify-content: center; /* 将表格水平居中对齐 */
