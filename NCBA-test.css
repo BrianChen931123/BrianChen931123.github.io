@@ -105,6 +105,26 @@ h3{
     background-color: #EEEEEE ; /* 設置表格背景色與頁面背景色相同 */
 }
 
+#Schedule .container {
+    display: flex;
+    justify-content: center;  /*将表格水平居中对齐 */
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border: none; /* 移除框線 */
+    background-color: #EEEEEE ; /* 設置表格背景色與頁面背景色相同 */
+}
 #Photos .container {
     display: flex;
     justify-content: center; /* 将表格水平居中对齐 */
