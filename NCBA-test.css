@@ -80,6 +80,21 @@ h3{
     border-radius: 60%;
 }
 
+iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+    }
+    
+    iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    }
+
 #Scores .container {
     display: flex;
     justify-content: center;  /*将表格水平居中对齐 */
@@ -88,8 +103,8 @@ h3{
     width: 100%;
     height: 100%;
     overflow: hidden;
-  }
-  .background-table {
+}
+.background-table {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,7 +113,7 @@ h3{
     z-index: -1;
     border: none; /* 移除框線 */
     background-color: #EEEEEE ; /* 設置表格背景色與頁面背景色相同 */
-  }
+}
 #Photos .container {
     display: flex;
     justify-content: center; /* 将表格水平居中对齐 */
