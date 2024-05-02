@@ -79,6 +79,7 @@ h3{
     width: 150px;
     border-radius: 60%;
 }
+
 #Scores .container {
     display: flex;
     justify-content: center;  /*将表格水平居中对齐 */
@@ -88,6 +89,7 @@ h3{
     height: 100%;
     overflow: hidden;
 }
+
 .background-table {
     position: absolute;
     top: 0;
@@ -98,6 +100,7 @@ h3{
     border: none; /* 移除框線 */
     background-color: #EEEEEE ; /* 設置表格背景色與頁面背景色相同 */
 }
+
 #Photos .container {
     display: flex;
     justify-content: center; /* 将表格水平居中对齐 */
@@ -126,7 +129,6 @@ h3{
     color: #000; /* 设置链接颜色为黑色 */
 }
 
-
 #Photos a {
     color: #787A91;
 }
@@ -135,12 +137,6 @@ h3{
     background-color: #787A91;
     color: #EEEEEE;
 }
-
-/*
-#Photos a:visited {
-    color:#141E61;
-}
-*/
 
 /* 回到頂部按鈕的樣式 */
 #scrollToTopBtn {
