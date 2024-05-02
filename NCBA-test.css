@@ -21,7 +21,7 @@ img {
     height: auto; /* 確保圖片比例不變 */
     margin: 0;
     padding: 0;
-  }
+}
 
 /* 導航欄樣式 */
 .navbar { 
