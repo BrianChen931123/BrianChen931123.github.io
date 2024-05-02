@@ -20,17 +20,17 @@
         <img src="header-photo2.png">
         <div class="header">
             <div class="navbar">
-                <a href="#Home">政大棒球聯盟NCBA</a>
-                <a href="#Scores">SCORES</a>
-                <a href="#Schedule">SCHEDULE</a>
-                <a href="#Standings">STANDINGS</a>
-                <a href="#Players">PLAYERS</a>
-                <a href="#Stats">STATS</a>
-                <a href="#Photos">PHOTOS</a>
+                <a href="#Home" onclick="showContent('Home')">政大棒球聯盟NCBA</a>
+                <a href="#Scores" onclick="showContent('Scores')">SCORES</a>
+                <a href="#Schedule" onclick="showContent('Schedule')">SCHEDULE</a>
+                <a href="#Standings" onclick="showContent('Standings')">STANDINGS</a>
+                <a href="#Players" onclick="showContent('Players')">PLAYERS</a>
+                <a href="#Stats" onclick="showContent('Stats')">STATS</a>
+                <a href="#Photos" onclick="showContent('Photos')">PHOTOS</a>
             </div>
         </div>
         <div class="main">
-            <div id="Home">
+            <div id="Home" class="content">
                 <h1>HOME</h1>
                 <h2>簡介</h2>
                 <h3>
@@ -46,7 +46,7 @@
                 </h3>
             </div>
         
-            <div id="Scores">
+            <div id="Scores" class="content">
                 <h1>SCORES</h1>
                 <div class="container">
                     <iframe src="https://script.google.com/macros/s/AKfycbwzAHapXDB0yz1R4u4eEOMHg_x4Akim7-bX4PXRBbA02gwaS3Db7BhWKtZX9-HwbhTj/exec" width="85%" height="870px"></iframe>
@@ -54,26 +54,26 @@
             </div>
 
         
-            <div id="Schedule">
+            <div id="Schedule" class="content">
                 <h1>SCHEDULE</h1>
                 <div class="container">
                     <iframe src="https://script.google.com/macros/s/AKfycbyFPmuCMUSfU-xGtnWXhjeY6-KT0Jxf8o2HgR-9qBym0u06Lwr-1xjSfrdLQtAt9yGn/exec" width="85%" height="870px"></iframe>
                 </div>
             </div>
         
-            <div id="Standings">
+            <div id="Standings" class="content">
                 <h1>STANDINGS</h1>
             </div>
         
-            <div id="Players">
+            <div id="Players" class="content">
                 <h1>PLAYERS</h1>     
             </div>
         
-            <div id="Stats">
+            <div id="Stats" class="content">
                 <h1>STATS</h1>
             </div>
         
-            <div id="Photos">
+            <div id="Photos" class="content">
                 <h1>PHOTOS</h1>
                 <div class="container">
                     <table class="list">
